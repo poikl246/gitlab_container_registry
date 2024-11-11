@@ -227,6 +227,8 @@ vim /srv/gitlab-runner/config.toml
 новое значение 
 `volumes = ["/cache", "/var/run/docker.sock:/var/run/docker.sock"]`
 
+Добавили `network_mode = "gitlab_gitlab_net"`
+
 Мой конфиг выглядит примерно так
 
 ```
