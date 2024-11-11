@@ -9,6 +9,8 @@ apt update && apt upgrade -y && apt install docker.io vim docker-compose -y
 а также на системе с которой подключаетесь 
 
 в /etc/hosts сделать 
+
+
 IP gitlab.example.com registry.example.com
 
 на [windows ](https://www.howtogeek.com/784196/how-to-edit-the-hosts-file-on-windows-10-or-11/)
