@@ -274,9 +274,12 @@ shutdown_timeout = 0
 Deploy > Container Registry
 
 там будут команды по типу 
+```bash
+ПРИМЕР
 docker login gitlab.example.com
 docker build -t gitlab.example.com/test/test .
 docker push gitlab.example.com/test/test
+```
 
 заходим на систему где будем использовать docker 
 обязательно заполняем /etc/hosts (в начале статьи есть пункт)
